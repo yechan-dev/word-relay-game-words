@@ -3,8 +3,8 @@
 
 ## How to use
 ```html
-<script src="yourfile.js" type="module"></script>
+<script type="module"></script>
 ```
 ```js
-const nouns = await fetch('./korean_nouns.json').then(r => r.json());
+const nouns = await fetch('https://raw.githubusercontent.com/yechan-dev/word-relay-game-words/refs/heads/main/words.json').then(r => r.json());
 ```
